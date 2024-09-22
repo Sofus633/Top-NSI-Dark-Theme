@@ -1,0 +1,1 @@
+browser.tabs.insertCSS({ file: "darkmode.css" });

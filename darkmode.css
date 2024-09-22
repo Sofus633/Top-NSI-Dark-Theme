@@ -1,0 +1,355 @@
+:root {
+    --dark-color: #121212;
+    --intermediate-color: #181818;
+    --hover-color: #1e1e1e;
+    --accent-color: #bb86fc;
+    --int-accent-color: #a36cf7;
+    --dark-accent-color: #9e63d9;    
+    --dark-int-accent-color: #854acc;
+    --code: #e83e8c;
+  }
+  
+  html, body {
+    background-color: var(--dark-color) !important;
+    color: var(--accent-color) !important;
+  }
+  
+  .main-inner{
+    background-color: var(--intermediate-color) !important;
+    color: var(--accent-color);
+    background-color: var(--dark-color);
+      border-color: var(--accent-color);
+  }
+  .bg-white {
+      background-color: var(--intermediate-color)!important;
+  }
+  #region-main {
+    background-color: var(--intermediate-color) !important;
+  }
+  a {
+    color: var(--accent-color) !important;
+  }
+  
+  
+  
+  .moremenu .nav-link:hover, .moremenu .nav-link:focus {
+      border-color: transparent;
+      background-color: #1e1e1e;
+  }
+  .moremenu .nav-link.active:focus, .moremenu .nav-link.active:hover {
+      border-color: transparent;
+      background-color: #1e1e1e;
+  }
+  .fa-bell-o{
+    color: var(--accent-color);
+  }
+  
+  .form-control {
+      display: block;
+      width: 100%;
+      height: calc(1.5em + 0.75rem + 2px);
+      padding: .375rem .75rem;
+      font-size: .9375rem;
+      font-weight: 400;
+      line-height: 1.5;
+      color: var(--accent-color);
+      background-color: var(--intermediate-color);
+      background-clip: padding-box;
+      border: 1px solid var(--accent-color);
+      border-radius: .5rem;
+      transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  }
+  
+  .form-control:focus {
+      color: var(--accent-color);
+      background-color: var(--intermediate-color);
+      border-color: var(--accent-color);
+      outline: 0;
+      box-shadow: 0 0 0 ;
+  }
+  
+  .btn-primary {
+      color: var(--accent-color);
+      background-color: var(--intermediate-color);
+      border-color: var(--accent-color);
+  }
+  .btn-primary:hover {
+      color: var(--accent-color);
+      background-color: var(--intermediate-color);
+      border-color: var(--accent-color);
+  }
+  
+  .card-body {
+    color: var(--accent-color);
+      background-color: var(--intermediate-color);
+      border-color: var(--accent-color);
+  }
+  #theme_boost-drawers-blocks {
+    color: var(--accent-color);
+      background-color: var(--intermediate-color);
+      border-color: var(--accent-color);
+  }
+  
+  .custom-select.cal_courses_flt.ml-1.mr-auto {
+    color: var(--accent-color);
+      background-color: var(--intermediate-color);
+      border-color: var(--accent-color);
+  }
+  .dayblank:hover{
+    color: #c49cff;
+      background-color: #1e1e1e;
+      border-color: #c49cff;
+  }
+  
+  .d-none.d-md-block.hidden-phone.text-xs-center:hover{
+    color: #c49cff;
+      background-color: #1e1e1e;
+      border-color: #c49cff;
+  }
+  
+  .card {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      min-width: 0;
+      word-wrap: break-word;
+      background-color: var(--accent-color);
+      background-clip: border-box;
+      border: 1px solid rgba(0,0,0,.125);
+      border-radius: .5rem;
+  }
+  .block-add {
+      color: var(--accent-color);
+    background-color: var(--intermediate-color);
+      border-color: var(--accent-color);
+      border-radius: .5rem;
+      width: 100%;
+      border-width: 1px;
+  }
+  
+  .block-add:hover {
+      color: var(--accent-color);
+    background-color: #1e1e1e;
+      border-color: var(--accent-color);
+      border-radius: .5rem;
+      width: 100%;
+      border-width: 1px;
+  }
+  
+  .drawer {
+    color: var(--accent-color);
+    background-color: #1e1e1e;
+      border-color: var(--accent-color);
+  }
+  .secondary-navigation .navigation {
+      border-bottom: 0px solid var(--dark-color);
+      background-color: var(--dark-color);
+      margin: 0 -.5rem;
+      padding: 0 .5rem;
+  }
+  
+  .moremenu .nav-tabs {
+      margin-left: 0;
+      background-color: var(--dark-color);
+    border-color: var(--accent-color);
+  }
+  
+  .activity-item {
+      position: relative;
+      padding: .75rem;
+      background-color: var(--intermediate-color);
+    border-color: var(--accent-color);
+  }
+  
+  .course-section .section-item {
+      padding: 1rem;
+    border-color: var(--accent-color);
+      border-radius: 1rem;
+  }
+  
+  .activity-item .activity-completion button.btn-success, .activity-item .activity-completion a[role="button"].btn-success {
+      background-color: var(--intermediate-color);
+      border-color: var(--accent-color);
+      color: var(--accent-color);
+  }
+  
+  .path-mod .activity-header:not(:empty) {
+      background-color: var(--intermediate-color);
+      border-color: var(--accent-color);
+      color: var(--accent-color);
+      margin-bottom: 1rem;
+      padding-left: 1rem;
+      padding-right: 1rem;
+      border-radius: .5rem;
+  }
+  
+  .alert-success {
+      background-color: var(--intermediate-color);
+      border-color: var(--accent-color);
+      color: var(--accent-color);
+  }
+  .path-mod .automatic-completion-conditions .badge {
+      font-size: 80%;
+      padding: .5rem;
+      margin-top: .25rem;
+      mix-blend-mode: normal;
+  }
+  
+  .generaltable{
+      background-color: var(--intermediate-color) !important;
+      border-color: var(--accent-color) !important;
+      color: var(--accent-color) !important;
+  }
+  .cell{
+    background-color: var(--intermediate-color) !important;
+      border-color: var(--accent-color) !important;
+      color: var(--accent-color) !important;
+  }
+  .card-title{
+    color: var(--intermediate-color) !important;
+  }
+  .btn-secondary {
+    background-color: var(--intermediate-color) !important;
+      border-color: var(--accent-color) !important;
+      color: var(--accent-color) !important;
+  }
+  .btn-secondary:hover {
+    background-color: var(--int-accent-color) !important;
+      border-color: var(--accent-color) !important;
+      color: var(--intermediate-color) !important;
+  }
+  .activity {
+      list-style: none;
+      position: relative;
+      padding-top: .25rem;
+      margin-top: .25rem;
+      border-top: 1px solid var(accent-color);
+  }
+  .btn.btn-icon.icons-collapse-expand {
+      color: #f5f9fc;
+      background-color: var(accent-color);
+  }
+  
+  .icon-no-margin .icon {
+  
+      color: var(--int-accent-color);
+  }
+  
+  code {
+      font-size: 87.5%;
+      color: #e83e8c;
+      word-wrap: break-word;
+    background-color: var(--dark-color);
+  }
+  pre {
+      font-size: 87.5%;
+      color: #e83e8c;
+        word-wrap: break-word;
+        background-color: var(--dark-color);
+      
+  }
+  
+  
+  #page.drawers {
+      scrollbar-color: var(--accent-color) var(--dark-color);
+  }
+  #frontpage-available-course-list .coursebox, #frontpage-course-list .coursebox, .course-search-result .coursebox {
+      border: 1px solid var(--accent-color);
+  }
+  .navbar.fixed-top {
+      border-bottom: var(--accent-color) 1px solid;
+  }
+  
+  .popover-region-container {
+      border: 1px solid var(--accent-color);
+      background-color: var(--intermediate-color);
+  
+  }
+  
+  .content-item-container.unread {
+      color: var(--accent-color);
+      background-color: var(--intermediate-color);
+  }
+  
+  .content-item-container.unread:hover {
+      color: var(--accent-color);
+      background-color: var(--intermediate-color);
+  }
+  .content-item-container {
+      border-bottom: 1px solid var(--accent-color);
+  }
+  
+  .popover-region-footer-container {
+  
+      border-top: 1px solid var(--accent-color);
+      background-color: var(--intermediate-color);
+  
+  }
+  .que .info {
+      background-color: var(--intermediate-color);
+      border: 1px solid  var(--accent-color);
+  }
+  
+  .que .formulation {
+    background-color: var(--dark-int-accent-color) !important;
+      border-color: var(--accent-color) !important;
+      color: var(--intermediate-color) !important;
+  }
+  
+  .que .outcome, .que .comment {
+    background-color: var(--dark-accent-color) !important;
+      border-color: var(--accent-color) !important;
+      color: var(--intermediate-color) !important;
+  }
+  
+  #page-question-type-coderunner table.coderunner-test-results .header, .que.coderunner table.coderunner-test-results .header, .que.coderunner table.coderunnerexamples .header {
+    background-color: var(--accent-color) !important;
+      border-color: var(--accent-color) !important;
+      color: var(--intermediate-color) !important;
+  }
+  
+  .custom-select {
+      color: var(--accent-color);
+      background: var(--intermediate-color) url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='4' height='5' viewBox='0 0 4 5'%3e%3cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e") right .75rem center / 8px 10px no-repeat;
+      border: 1px solid var(--accent-color);
+  }
+  .nav-tabs  .nav-link.active, .nav-tabs .nav-item.show .nav-link  {
+      color: var(--accent-color);
+      background: var(--intermediate-color) ;
+      border: 1px solid var(--accent-color);
+  }
+  .dropdown-menu {
+      color: var(--accent-color);
+      background: var(--intermediate-color) ;
+      border: 1px solid var(--accent-color);
+  }
+  .alert-info {
+      color: var(--accent-color);
+      background: var(--intermediate-color) ;
+      border: 1px solid var(--accent-color);
+  }
+  
+  .que.coderunner div.coderunner-test-results.good, #page-question-type-coderunner tr.coderunner-failed-test.fixed {
+      background-color: var(--accent-color);
+  }
+  
+  #page-question-type-coderunner div.ui_wrapper, .que.coderunner div.ui_wrapper {
+      max-width: 100%;
+      box-sizing: border-box;
+      background-color: var(--dark-accent-color);
+  }
+  
+  #contenu {
+      background-color: var(--intermediate-color);
+  }
+  
+  .pagelayout-login #page {
+    background: var(--dark-color);
+    background-image: linear-gradient(to right,var(--dark-color) 0%,var(--dark-int-accent-color) 100%);
+
+  }
+
+  .login-container {
+    background-color: var(--dark-color);
+
+  }
